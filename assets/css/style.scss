@@ -1,0 +1,60 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+
+
+img {
+display: block;
+padding: 8px;
+margin: auto;
+max-width: 220px;
+
+}
+
+.screen {
+	
+display: inline-block;
+max-width: 100px;
+
+
+}
+
+.note {
+	
+	background-color: lightgrey;
+	border-radius: 5px;
+	padding: 10px;
+		margin: 10px;
+}
+
+
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 30px;
+    display: inline-block;
+    margin: 20px 140px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+}
+
+.btn-2 {
+    background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+

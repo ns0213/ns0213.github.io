@@ -1,0 +1,24 @@
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+##Project 1
+
+<h5>Redesigning a restaurant app</h5>
+
+<h4>Brainstorm & Ideate</h4>
+<h4>Storyboard</h4>
+<h4>Wireframe</h4>
+<h4>Mockups</h4>
+
+
+<h4>Reflection</h4>
+
+
+
+</p>	
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}

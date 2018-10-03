@@ -1,0 +1,97 @@
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<!-- <p class="view">by {{ page.author | default: site.author }}</p> -->
+
+<h1>Project 1</h1>
+
+<h2>Redesigning a restaurant app</h2>
+
+<a href="https://marvelapp.com/45776ej"><button class="btn btn-2 btn-2c">Try the demo</button></a>
+
+
+<h4>Step 1: Brainstorm & Ideate</h4>
+<p>
+	We first discussed together the important aspects of a restaurant app and came up with the three following themes: recommendations, usability/intuitiveness, user experience.
+<img src="\assets\img\bstorm2.jpg">
+
+	This meant that we wanted to come up with an innovative idea that would seamlessly integrate a recommendation system into the user's ordering experiences. 
+<img src="\assets\img\bstorm1.jpg">
+	We came up with the recommendation system idea based on the fact that i is very hard for non-locals to order food in local restaurants, even if the menu is in English (simply because we are not familiar with the food). -- Thus, the idea of the "Foodbot" was born! 
+<img src="\assets\img\robot-chef.png">
+
+</p>
+
+<h5>Knowing our user</h5>
+<p>In ideating the app, we developed profiles for two types of users:
+
+<ol>
+	<li>Adventurous, i.e. someone who wants to try new types of foods, other than what they feel comfortable with. This is traditionally difficult because in most local restuarants, there are to many options and too few details as to what would be desireable (despite being adventurous, it doesn't mean the user will eat absolutely anything</li>	<br>
+	<li>Leisurely, Casual, Safe, Consercative - these were the terms we went through to describe the type of person who doesn't like to try things that are weird or out of their comfort zone. We ended up using the word "Safe" in the final app" </li>
+<img src="\assets\img\adventurous.png">
+
+</ol></p>
+
+<h4>Step 2: Storyboard</h4>
+<p>
+	We first drew out what the app would look like screen-by-screen, in the process know as storyboarding. Doing so allowed us to flesh out the idea without spending excessive amounts of time to revising and iterating using more time consuming tools such as prototypoing software. 
+<img src="\assets\img\group.jpg">
+
+We decided that aside from the conventional ordering system "A La Carte", we would include foodbot as a separate option in the form of a series of questions, to which the user would answer to generate recommendations for the food they are most likely to enjoy. 
+
+The questions we ultimately decided to include were: 
+
+<ul>
+	<li># of people in party</li>
+	<li>allergies/exclusions</li>
+	<li>amount of meat</li>
+	<li>sweet or savory</li>
+	<li>spiciness</li>
+	<li>stable food (carbs)</li>
+
+
+<div class="note"><strong>Empathize</strong> -- By posing our questions to the user in the form of a friendly robot, we are making the app more relatable to the user, rather than having the quesations come from an invisible, inhuman entity, which would feel awkward and uncomfortable.</div>
+
+</p>
+
+<img src="\assets\img\sb-2.jpg">
+
+
+<h4>Step 3: Wireframe</h4>
+<p>
+	We first drew up the entire storyboard in wireframe form. This is one step closer to the interactive prototype as it standardizes the app formatting, sizing, and general feel. It is important to wireframe prior to making the prototype because it's much simpler--lacking color and images, making it much easier to iterate and go over different options before deciding on the final details.  
+
+</p>
+
+<img class="screen" src="\assets\img\wire-home.png">
+<img class="screen" src="\assets\img\wireframe.png">
+<img class="screen" src="\assets\img\wire3.png">
+<img class="screen" src="\assets\img\wireframe-order.png">
+
+
+<h4>Step 4: Mockups</h4>
+<p>Finally, we created an interactive prototype of the app using Marvel. We added colors, images, and a few more screens (savory or sweet was a later addition), including the drinks ordering screen and additional services (fill water, summon waiter, etc). 
+<br><br>
+Deciding on how to handle the results after recommendations were generated ("I'm feeling lucky' vs "view my options") took some time and could have been more efficiently done in the wireframing stage. Nonetheless we came up with agreeable solutions and made it intiutive and seamless.  </p>
+<img class="screen" src="\assets\img\welcomescreen.png">
+<img class="screen" src="\assets\img\allergies.png">
+<img class="screen" src="\assets\img\staple-food.png">
+<img class="screen" src="\assets\img\options.png">
+<h4>Reflection</h4>
+<p>
+	I believe the recommendation system developed hereing can serve as a start to a major overhaul to the way food is ordered in upscale restaurants. especially in tourist heavy cities such as Hong Kong. Using artificial intelligence, we can narrow down the recommended options to provide the users with the food they have the highest likelihood of enjoying, and at the same time allow them to try new things, accomodating to everyone in the party.
+<br><br>
+	Regarding the design process, I learned how to optimize the time spent in each aspect of development in order to create a powerful concept and app prototype in a short period of time. Empathizing was also very importatn as we had to fully understand the needs of a very speecific type of user. 
+<br><br>
+	Not to mention, having creative and motivated teammates made the experience more fluid and pleasant.  
+
+
+</p>
+
+<img src="\assets\img\group-full.jpg">
+
+	
+<a href="https://marvelapp.com/45776ej" style="text-align: center"><button class="btn btn-2 btn-2c">Try the demo</button></a>
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
