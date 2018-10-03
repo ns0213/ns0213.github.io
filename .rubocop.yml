@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 AllCops:
   Exclude:
     - _site/**/*
 
 Metrics/LineLength:
   Enabled: false
+=======
+AllCops:
+  Exclude:
+    - _site/**/*
+
+Metrics/LineLength:
+  Enabled: false
+>>>>>>> 9ffa5df91619de468b59496050819d2e0537ca4f

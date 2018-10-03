@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 language: ruby
 cache: bundler
 sudo: false
@@ -5,3 +6,12 @@ rvm: 2.2
 
 install: script/bootstrap
 script: script/cibuild
+=======
+language: ruby
+cache: bundler
+sudo: false
+rvm: 2.2
+
+install: script/bootstrap
+script: script/cibuild
+>>>>>>> 9ffa5df91619de468b59496050819d2e0537ca4f
