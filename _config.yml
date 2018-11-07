@@ -27,7 +27,7 @@ markdown: kramdown
 theme: 
 plugins:
   - jekyll-feed
-
+repository: ns0213/ns0213.github.io
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
