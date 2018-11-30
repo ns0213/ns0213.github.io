@@ -1,0 +1,78 @@
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<!-- <p class="view">by {{ page.author | default: site.author }}</p> -->
+
+<h1>Project 3</h1>
+
+<h2>Human Robot Experience</h2>
+
+<a href="https://youtu.be/K-mbbt_G3w4"><button class="btn btn-2 btn-2c">Watch the video</button></a>
+
+<h4>Intro</h4>
+<p>The theme of this project was to come up with a solution for typhoon related problems to be impemented in one of SoftBank's humanoid robots.</p>
+
+<h4>Step 1: Brainstorm & Ideate</h4>
+<p>
+	Firstly we had to decide which robot to use: Nao or Pepper. The answer was immediately clear. Pepper had amy more functionalities and a simple drag and drop programming interface. Not to mention, (s)he wouldn't fall over with the slightest movement. 
+<img src="\assets\img\p3\ideate.jpeg">
+	
+
+	To come up with a use-case for the robot, which has the limitation of speaking and very naive voice interactions such ask recognizing 'yes' or 'no' responses (as well as image display via the tablet on its chest), we went through s gre different potential options. 1) 
+	We came up with the idea of an empathetic robot, which would, rather than physically assisting with tasks related to typhoon precautions or reparations, but instead, simply serve as an emotional support service. 
+	My groupmates quickly pointed out the similarities to this concept and a robot called Baymax, whom I'd never heard of before. We all agreed on the idea of the "empathetic robot" and proceeded to outline the specific functionalities and interactions.
+	Thus, Pepper, The Shelter Helper was born!
+	<br><br>
+	As for the specific scenario in which such a robot would be useful, we decided it would be of maximum impact in a shelter environment, where people displaced from their homes due to the typhoon are forced to go, often without most of their belongings and away from friends or family. 
+<img src="\assets\img\p3\pepper.jpeg">
+
+</p>
+
+<h5>Knowing our user</h5>
+<p>In ideating the app, we developed a profile for our target user:
+
+<ol>
+	<li>An elderly woman who was displaced to a local community shelter, but who did not find the facilities of the shelter accomodating, nor did she feel comfortable talking to anyone their due to the fact that they were strangers.</li>	<br>
+
+</ol></p>
+<img src="\assets\img\p3\brainstorm.jpeg">
+<h4>Step 2: Interactions</h4>
+<p>
+	We came up with three different interactions types that the Pepper would assume, each one appealing to a different need of the shelter user. 
+
+	<ol>
+		<li>Entertainment - the Pepper would ask if the user wanted her to dance or tell a joke; the user could then choose one, or say no. This would provide some much needed cominc relief in the stressful situation of being disaplced by the typhoon.</li>
+		<li>Information - the Pepper would ask the user if he'she needed any information. The user could choose to hear such info as the current weather and forecast, as well as updates on the typhoon.</li>
+		<li>Assistance - the Pepper would offer to order the user some food or drink, or necessities such as a blanket, etc. The order would ideally be cooked/prepared/served/fetched in a completely automated process, but due to the limitations of the resources, we made it so that she would simply put in the order and advise the user of an order number and where to pick up. In the shelte</li>
+
+
+	</ol>
+
+<img src="\assets\img\p3\code.png">
+
+</p>
+
+<h4>Step 3: Prototype & Demonstration</h4>
+<p>In programming Pepper, we divided the task into three parts, one for each of the interaction types. I took on the task of making the Pepper provide information, specifically weather.
+First, Pepper would ask: "What would you like to know?" The user could then respond: "the weather, please". Pepper would wait a few second for the response, then tell the current weather conditions. Considering that the scenario in our demo took place the night before the typhoon, the weather was that of a typically cloudy evening in Hong Kong. After finishing the weather report, Pepper would follow up by asking: "Do you want to know the three day forecast?" <br><br>
+</p>
+
+<img src="\assets\img\p3\cheers.png">
+<div class="note"><strong>Empathize</strong> -- We decided to include a section in which Pepper would ask questions to gauge her impact and whether her service had the intended impact. This is an integral part of the design thinking process so that the robot could be improved according to user feedback. For the sake of the demo video, the responses were all positive, being simply intended as an example of the three different interaction types which could be further elaborated upon in a more comprehensive implementation, were this type of thing actually pursued commercially (or otherwise).</div>
+<img src="\assets\img\p3\pushingpepper.jpeg">
+
+
+<h4>Reflection</h4>
+<p>
+	I think the robot use case we ideated and impemented were among the most practical from what I have seen. We intentionally limited the functions to leverage what the robot could actually do, while also considering what would have a large impact given the typhoon scenario. I am especially happy with the outcome of the demo video (thanks Ishan and our special guest actors), which did a good job of evoking an emotional repsonse of the audience, truly confirming that a robot could act as and empathetic being to provide emotional support. 
+<br><br>
+	I want to thank my team  (Ha Young, Ishan, Juliana, Patrick) for their hard work and pleasant-to-work-withness. 
+</p>
+
+<img src="\assets\img\p3\team.jpeg">
+
+	
+<a href="https://youtu.be/K-mbbt_G3w4" style="text-align: center;"><button class="btn btn-2 btn-2c">Watch the video</button></a>
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
